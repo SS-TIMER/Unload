@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.CapacityDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.produce.entity.CapacityEntity" id="capacityMap">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="technoName" column="technoName"/>
+        <result property="facName" column="facName"/>
+        <result property="facId" column="facId"/>
+        <result property="paramName" column="paramName"/>
+        <result property="paramDesignValue" column="paramDesignValue"/>
+        <result property="paramUnit" column="paramUnit"/>
+        <result property="otherParamInfo" column="otherParamInfo"/>
+        <result property="otherFacNum" column="otherFacNum"/>
+        <result property="unit" column="unit"/>
+        <result property="designCapacity" column="designCapacity"/>
+        <result property="runTime" column="runTime"/>
+        <result property="otherInfo" column="otherInfo"/>
+        <result property="otherTechnoInfo" column="otherTechnoInfo"/>
+    </resultMap>
+
+
+</mapper>

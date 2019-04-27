@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面一</title>
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap.min.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+        }
+        #web_bg{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            min-width: 1000px;
+            z-index:-10;
+            zoom: 1;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-position: center 0;
+        }
+        #header{
+            width: 700px;
+            margin: 0 auto;
+        }
+        #section{
+            position: relative;
+            width: 700px;
+            margin:  0 auto;
+        }
+        .login img{
+            margin: 10px 0 0 10px;
+        }
+        .register_one img{
+            margin: 0 0 -20px 170px;
+        }
+        /*
+        用户注册
+         */
+        .user-register{
+            position: absolute;
+            top: 14px;
+            left: 134px;
+            width: 130px;
+            height: 36px;
+            line-height: 36px;
+            border: 1px solid #666;
+            text-align: center;
+            box-shadow: #666 0 0 3px inset;
+        }
+        .user-register span{
+            font-size: 20px;
+        }
+        /*
+        脚注
+         */
+        #footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background: rgba(119,119,119,.8);
+        }
+        .footer-controller{
+            margin: 18px 8px 2px 10px;
+        }
+        /*
+        注册表单
+         */
+        .register-form{
+            position: absolute;
+            top: 70px;
+            right: 50px;
+            width: 280px;
+            height: 300px;
+            box-shadow: #666 0 0 3px ;
+            background-color: rgb(242,253,240);
+            text-align: center;
+        }
+        .register-form p{
+            font-size: 20px;
+            margin: 10px 0 30px 0;
+        }
+        .register-form .phoneNum{
+        }
+        .register-form .phoneNum input{
+            margin: 0 auto;
+
+            width: 240px;
+        }
+        .nextStep{
+            margin-top: 30px;
+        }
+        .verification{
+            margin-top: 30px;
+        }
+        .verification button{
+            background: rgb(218,219,212);
+        }
+        .blue-button{
+            position: absolute;
+            left: 52px;
+            bottom: 146px;
+            border-radius: 100%;
+            width: 10px;
+            height: 10px;
+            background-color: #0d6aad;
+        }
+        .blue-button_big{
+            position: absolute;
+            left: 45px;
+            bottom: 139px;
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            background: rgba(13,106,173,.4);
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <!--背景图片-->
+    <div id="web_bg" style="background-image: url('${request.contextPath}/statics/image/register_1.jpg');"></div>
+</div>
+<div id="header">
+    <nav>
+        <div class="login">
+            <img src="${request.contextPath}/statics/image/loginin.png" width="120" height="30"/>
+        </div>
+        <div class="register_one">
+            <img src="${request.contextPath}/statics/image/one.png" width="360" height="70"/>
+        </div>
+    </nav>
+</div>
+<section id="section">
+    <div class="user-register">
+        <span>用户注册</span>
+    </div>
+    <div class="register-form">
+        <p class="login-box-msg">验证手机号</p>
+        <div class="phoneNum">
+            <input type="text" class="form-control" v-model="phoneNum" placeholder="请输入手机号">
+        </div>
+        <div class="verification">
+            <button type="button" class="btn btn-default" style="width:240px">
+                <div class="blue-button_big"></div>
+                <div class="blue-button"></div>
+                点击按钮进行验证
+            </button>
+        </div>
+        <div class="nextStep">
+            <a href="register2.html"><button type="button" class="btn btn-primary" style="width: 160px">下一步</button></a>
+        </div>
+    </div>
+
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="footer-controller" align="center">
+            <div>
+                <span>版权所有:臻和慧联科技有限公司</span>
+                <span>备案号:xxxxxxxxxxxx</span>
+            </div>
+            <div style="margin-top: 10px">
+                <p>技术支持:臻和慧联科技有限公司</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+li {
+    list-style: none;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.clear {
+    clear: both;
+}
+.row{
+    border: 0;
+}
+
+.box_float {
+    width: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 1px #000;
+    border: 2px solid #b5b5b5;
+}
+.box_end{
+    margin-bottom: 20px;
+}
+.box_head {
+    margin: 0 auto;
+}
+
+#rrapp {
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+}
+
+#rrepp {
+    margin: 0 auto;
+    height: 370px;
+}
+
+.form-horizontal {
+    float: left;
+    width: 592px;
+    height: 195px;
+}
+.one-form-control {
+    width: 918px;
+    margin-left: 14px;
+}
+p{
+    line-height: 34px;
+}
+.box_resul {
+    height:auto;
+    width: 1000px;
+}
+.q{
+    padding-top:20px;
+}
+.box_last1{
+    float: left;
+    height: auto;
+    width: 200px;
+}
+.box_last2{
+    float: left;
+    height: auto;
+    width: 984px;
+    margin-top: 70px;
+}
+/*
+.box_ext{
+    width: 1000px;
+    height: 103px;
+    background-color: #00B83F;
+}*/

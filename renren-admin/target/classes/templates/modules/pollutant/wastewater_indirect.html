@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <#include "/header.html">
+</head>
+<body>
+<div id="rrapp" v-cloak>
+    <div v-show="showList">
+        <div class="grid-btn">
+            <a class="btn btn-primary" @click="add"><i class="fa fa-plus"></i>&nbsp;新增</a>
+        <a class="btn btn-primary" @click="update"><i class="fa fa-pencil-square-o"></i>&nbsp;修改</a>
+
+    <a class="btn btn-primary" @click="del"><i class="fa fa-trash-o"></i>&nbsp;删除</a>
+
+</div>
+<table id="jqGrid"></table>
+<div id="jqGridPager"></div>
+</div>
+<div v-show="!showList" class="panel panel-default">
+    <div class="panel-heading">{{title}}</div>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <div class="col-sm-2 control-label">排放口编号</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.dischargeId" placeholder="排放口编号"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">排放口名称</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.dischargeName" placeholder="排放口名称"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">经度</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.longitude" placeholder="经度"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">纬度</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.latitude" placeholder="纬度"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">排放去向</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.whereabouts" placeholder="排放去向"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">排放规律</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.law" placeholder="排放规律"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">间歇排放时段</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.timeInterval" placeholder="间歇排放时段"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">名称</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.firstName" placeholder="名称"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">污染物种类</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.fomiteClass" placeholder="污染物种类"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">国家或地方污染物排放标准浓度</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.concentration" placeholder="国家或地方污染物排放标准浓度"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label"></div>
+            <input type="button" class="btn btn-primary" id="btnSaveOrUpdate" data-loading-text="保存中..."
+                   @click="saveOrUpdate" value="确定"/>
+            &nbsp;&nbsp;<input type="button" class="btn btn-warning" @click="reload" value="返回"/>
+        </div>
+    </form>
+</div>
+</div>
+<script src="${request.contextPath}/statics/js/modules/pollutant/wastewater_indirect.js?_${.now?long}"></script>
+</body>
+</html>

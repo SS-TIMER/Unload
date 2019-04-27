@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>申请单位基本信息表</title>
+    <#include "/header.html">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/basicinfo.css">
+</head>
+
+<body >
+<div class="box_float" id="rrapp" style="height: 100%!important;">
+    <div class="box_head">
+        <h3 id="h3_head">申请单位基本信息表</h3>
+    </div>
+    <div class="container">
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                <p>单位名称</p>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name26" placeholder="单位名称"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label"><p>行业类别</p></div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name27" placeholder="行业类别"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                <p>注册地址</p>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name28" placeholder="注册地址"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label"><p>是否投产</p></div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name29" placeholder="是否投产"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                技术负责人
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name30" placeholder="技术负责人"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label"><p>联系电话</p></div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name6" placeholder="联系电话"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                社会统一信用代码
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name7" placeholder="社会统一信用代码"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label"><p>投产日期</p></div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name8" placeholder="投产日期"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                生产经营场所地址
+            </div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control one-form-control" v-model="name9" placeholder="生产经营场所地址"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                生产经营场所坐标
+            </div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control one-form-control" v-model="name10" placeholder="生产经营场所坐标"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                是否属于重点区域
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name11" placeholder="是否属于重点区域"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">环境批复文件号</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name12" placeholder="环境批复文件号"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                是否有环评批复文件
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name13" placeholder="是否有环评批复文件"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">"三同时"验收批复文件号</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name14" placeholder="三同时验收批复文件号"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                是否有军工环保验收批复文件
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name15" placeholder="是否有军工环保验收批复文件"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">认定或者备案文件号</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name16" placeholder="认定或者备案文件号"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                是否有主要污染物总量分配计划文件
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name17" placeholder="是否有主要污染物总量分配计划文件"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">总量分配计划文件号</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name18" placeholder="总量分配计划文件号"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                二氧化硫总量指标(t/a)
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name19" placeholder="二氧化硫总量指标(t/a)"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">氮氧化合物总量指标(t/a)</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name20" placeholder="氮氧化合物总量指标(t/a)"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                化学需氧量总量指标(t/a)
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name21" placeholder="化学需氧量总量指标(t/a)"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">氮氧总量指标(t/a)</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name22" placeholder="氮氧总量指标(t/a)"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                化学需氧量总量指标(t/a)
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name23" placeholder="化学需氧量总量指标(t/a)"/>
+            </div>
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">氮氧总量指标(t/a)</div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" v-model="name24" placeholder="氮氧总量指标(t/a)"/>
+            </div>
+        </div>
+        <div class="row" style="margin:0 auto">
+            <div class="col-sm-1 control-label"></div>
+            <div class="col-sm-1 control-label">
+                其他污染物总量指标(如有(t/a)
+            </div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control one-form-control" v-model="name25" placeholder="其他污染物总量指标(如有(t/a)"/>
+            </div>
+        </div>
+    </div>
+    <div class="box_end container">
+        <div class="inner row">
+            <div class="col-sm-1 control-label"></div>
+            <div class="text_info" style="float: left;margin-left: 15px">
+                <h3>说明：</h3>
+                <span>1.安全第一</span> <br>
+                <span>2.生产第二</span>
+            </div>
+            <div class="btn_div" style="float: right;    margin-top: 30px;margin-right: 15px;">
+                <a target="_parent" >
+                    <input id="ok" type="button" class="btn btn-primary"  data-loading-text="保存中..."
+                           @click="query" value="确定" />
+                </a>
+                &nbsp;&nbsp;
+                <a id="a_re" target="_parent" href="${request.contextPath}/#modules/licence/found.html">
+                    <input id="re" type="button" class="btn btn-warning"
+                           value="返回" />
+                </a>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="${request.contextPath}/statics/js/modules/licence/basicinfo.js?_${.now?long}"></script>
+</html>

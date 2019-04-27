@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.SysBookDao">
+    <resultMap type="io.renren.modules.sys.entity.SysBookEntity" id="sysBookMap">
+        <result property="name" column="name"/>
+        <result property="author" column="author"/>
+        <result property="remark" column="remark"/>
+        <result property="price" column="price"/>
+        <result property="number" column="number"/>
+    </resultMap>
+
+    <!-- 读取所有数据 -->
+    <select id="queryListParentId" resultType="io.renren.modules.sys.entity.SysBookEntity">
+        select * from sys_book where id = #{id} order by id asc
+    </select>
+    <!-- 根据 id，更新信息 -->
+    <update id="updateValueByID" parameterType="io.renren.modules.sys.entity.SysBookEntity">
+        update sys_book set name = #{name},author= #{author},price=#{price},number=#{number} where id = #{id}
+    </update>
+
+</mapper>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <!--    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">-->
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="${request.contextPath}/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css">
+
+    <style>
+        container {
+            width: 1170px;
+            max-width: none !important;
+        }
+
+        body {
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .clear-both {
+            clear: both;
+        }
+
+        .main_header {
+            padding: 10px 0 20px 10px;
+            margin-top: 50px;
+        }
+
+        .align_left {
+            text-align: left;
+        }
+
+        .align_right {
+            text-align: right;
+        }
+
+        .main-banner {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .banner {
+            height: 350px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .imgdiv {
+            width: 370px;
+            margin: 0 auto;
+            background: #def3f5;
+            text-align: center;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: relative;
+        }
+
+        .editpan {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            bottom: 0;
+            padding-bottom: 3px;
+            background: rgba(244, 244, 244, 0.62);
+        }
+
+        .editpan span {
+            height: 15px;
+        }
+
+        .editpan span:hover {
+            color: #00acd6;
+            text-decoration: #00acd6;
+        }
+
+        .imgdiv img {
+            width: 350px;
+            height: 200px;
+        }
+
+        .text-show {
+            background: #def3f5;
+            padding: 10px 0;
+            width: 370px;
+            margin: 0 auto;
+        }
+
+        .text-show img {
+            height: 100%;
+        }
+
+        .nodata-banner {
+            height: 350px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nodata-img {
+            height: 200px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .nodata-bannerdiv {
+            margin-top: 80px;
+        }
+
+        .nodata-innerdiv {
+            width: 360px;
+            padding: 5px;
+            margin: 0 auto;
+            background: #def3f5;
+            position: relative;
+        }
+
+        .nodata-bannerimg {
+            width: 350px;
+            height: 200px;
+        }
+
+        .nodata-text {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            background: rgba(244, 244, 244, 0.62);
+            left: 0;
+        }
+
+        .nodata-text h3 {
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        .nodata-adddiv {
+            height: 140px;
+            width: 360px;
+            margin: 0 auto;
+            background: #def3f5;
+        }
+
+        .nodata-adddiv img {
+            height: 100%;
+        }
+
+        .hide {
+
+            position: absolute;
+
+            top: -9999px;
+
+            left: -9999px;
+
+        }
+
+        .main-banner a {
+            color: #000000;
+        }
+
+        /*    */
+        .row-new {
+            display: inline-block;
+            float: left;
+            border-top: none;
+            font-size: 0;
+            margin-left: 0;
+            margin-right: 10px;
+        }
+
+        .btn {
+            padding: 4px 9px;
+            font-size: 13px;
+            /*margin: 2px 16px 0 16px;*/
+            margin: 3px 4px 0 4px;
+        }
+
+        .row-new .col-sm-4 {
+            margin: 6px 0 0 0;
+            text-align: center;
+            width: 365px;
+            height: auto;
+            /*background-color: #ffb77a;*/
+            float: left;
+            padding: 0 0 20px 0;
+            border: 1px solid #00a7d0;
+            border-radius: 4px;
+            box-shadow: #ccc 2px 2px;
+        }
+
+        .content-big {
+            width: 345px;
+            height: 200px;
+            border: 1px solid #00a7d0;
+            margin: 10px 0 0 9px;
+        }
+
+        .content-big .content-big_left {
+            width: 128px;
+            height: 200px;
+        }
+
+        .content-big .content-big_right {
+            width: 210px;
+            height: 200px;
+        }
+
+        .content-big_left > ul > li {
+            padding: 0 0 1px 6px;
+        }
+
+        .content-big_right > ul > li {
+            padding: 0 0 1px 4px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .footer {
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        var data
+    </script>
+</head>
+<body>
+<div class="wrapper" id="rrapp" class="panel panel-default" style="position: relative">
+    <div style="position: absolute;right: 5%;top: 10%;">
+    </div>
+    <div class="panel-heading" style="text-align: right">
+        <span><a href="${request.contextPath}/companyinfo.html">企业信息</a></span>
+    </div>
+    <div class="container">
+        <div style="margin-left: -260px" class="main_header row">
+            <div class="col-sm-6 row">
+                <div class="col-sm-5 align_right row" style="float: right;margin-right: 50px">
+                    <select id="select" name="select" class="col-sm-6 selectpicker show-tick form-control"
+                            style="float:right;height: 32px" placeholder="选择企业类型">
+                        <option value="guoqi">选择企业类型</option>
+                        <option value="guoqi">水泥行业</option>
+                        <option value="intelet">物联网企业</option>
+                        <option value="guoqi">国家企业</option>
+                    </select>
+                    <div class="clear-both">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 align_left row">
+                <input type="text" style="width: 75%" class="form-control col-sm-6" id="search02" placeholder="搜索名称">
+                <a target="_parent" href="${request.contextPath}/#modules/licence/found.html">
+                    <input type="button" class="btn btn-primary col-sm-2" id="btnSaveOrUpdate" value="创建申请表"
+                           style="margin-left: 40px;"/></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" style="margin-bottom: 20px">
+        <!-- vue生成的菜单 -->
+        <menu-item :item="item"  :index="index" v-for="item,index in menuList"></menu-item>
+    </div>
+    <div class="footer hide">
+        <table class="ui-pg-table ui-common-table ui-paging-pager">
+            <tbody>
+            <tr>
+                <td class="ui-pg-button ui-disabled" title="First Page">
+                    <span class="glyphicon glyphicon-step-backward">
+                    </span>
+                </td>
+                <td class="ui-pg-button ui-disabled" title="Previous Page">
+                    <span
+                        class="glyphicon glyphicon-backward">
+                    </span>
+                </td>
+                <td class="ui-pg-button ui-disabled">
+                    <span class="ui-separator"></span>
+                </td>
+                <td id="input_jqGridPager" dir="ltr">
+                    <input class="ui-pg-input form-control" type="text" size="2" maxlength="7" value="0" role="textbox">
+                    共
+                    <span>1</span>
+                    页
+                </td>
+                <td class="ui-pg-button ui-disabled">
+                    <span class="ui-separator"></span>
+                </td>
+                <td class="ui-pg-button ui-disabled" title="Next Page">
+                    <span class="glyphicon glyphicon-forward"></span>
+                </td>
+                <td class="ui-pg-button ui-disabled" title="Last Page">
+                    <span class="glyphicon glyphicon-step-forward"></span>
+                </td>
+                <td dir="ltr">
+                    <select class="ui-pg-selbox form-control" role="listbox" title="Records per Page">
+                    <option role="option" value="10" selected="selected">10</option>
+                    <option role="option" value="30">30</option>
+                    <option role="option" value="50">50</option>
+                </select>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<script src="${request.contextPath}/statics/libs/jquery.min.js"></script>
+<script src="${request.contextPath}/statics/libs/vue.min.js"></script>
+<script src="${request.contextPath}/statics/libs/router.js"></script>
+<script src="${request.contextPath}/statics/libs/bootstrap.min.js"></script>
+<script src="${request.contextPath}/statics/libs/app.js"></script>
+<script src="${request.contextPath}/statics/plugins/layer/layer.js"></script>
+<script src="${request.contextPath}/statics/libs/bootstrap-select.min.js"></script>
+<script src="${request.contextPath}/statics/libs/defaults-zh_CN.min.js"></script>
+<script src="${request.contextPath}/statics/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>管理申请表</title>
+    <#include "/header.html">
+    <script src="${request.contextPath}/statics/js/homedata.min.js"></script>
+</head>
+<style>
+    .differ {
+        background-color: #e7fafe;
+    }
+
+    .form-control-info {
+        height: 90px;
+    }
+
+    .input-box {
+        border: 0;
+        padding: 0 0 0 106px;
+        text-align: center;
+    }
+
+    .fixtest {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .go-left {
+        margin-left: -20px;
+    }
+    .margin-right{
+        margin-right: 5px;
+    }
+</style>
+<body>
+<div id="rrapp" v-cloak>
+    <div v-show="showList">
+        <div class="grid-btn">
+        <a class="btn btn-primary" @click="update"><i class="fa fa-pencil-square-o"></i>&nbsp;修改</a>
+    <a class="btn btn-primary" @click="del"><i class="fa fa-trash-o"></i>&nbsp;删除</a>
+</div>
+<table id="jqGrid"></table>
+<div id="jqGridPager"></div>
+</div>
+
+<div v-show="!showList" class="panel panel-default">
+    <div class="panel-heading">{{title}}</div>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <div class="col-sm-2 control-label">申请表名称</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.name" placeholder="申请表名称"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">行业类型</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.type" placeholder="行业类型"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">创建人</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.author" placeholder="创建人"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">创建时间</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="info.createTime" placeholder="创建时间"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label"></div>
+            <input type="button" class="btn btn-primary" id="btnSaveOrUpdate" data-loading-text="保存中..."
+                   @click="saveOrUpdate" value="确定"/>
+            &nbsp;&nbsp;<input type="button" class="btn btn-warning" @click="reload" value="返回"/>
+        </div>
+    </form>
+</div>
+</div>
+
+<script src="${request.contextPath}/statics/js/modules/licence/manage.js?_${.now?long}"></script>
+</body>
+</html>

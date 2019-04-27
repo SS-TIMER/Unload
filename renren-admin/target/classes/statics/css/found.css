@@ -1,0 +1,23 @@
+body {
+    text-align: center
+}
+
+.box_apply {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.box_apply {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 1px #000;
+    border: 2px solid #b5b5b5;
+}
+
+.box_head {
+    margin: 0 auto;
+}
+.box_end{
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}

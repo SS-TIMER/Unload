@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>主要产品及产能信息</title>
+    <#include "/header.html">
+</head>
+<style>
+    .differ {
+        background-color: #e7fafe;
+    }
+
+    .form-control-info {
+        height: 90px;
+    }
+
+    .input-box {
+        border: 0;
+        padding: 0 0 0 106px;
+        text-align: center;
+    }
+
+    .fixtest {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .go-left {
+        margin-left: -20px;
+    }
+</style>
+<body>
+<div id="rrapp" v-cloak>
+    <div v-show="showList">
+        <div class="grid-btn">
+            <#if shiro.hasPermission("sys:goods:save")>
+            <a class="btn btn-primary" @click="add"><i class="fa fa-plus"></i>&nbsp;新增</a>
+            </#if>
+            <#if shiro.hasPermission("sys:goods:update")>
+            <a class="btn btn-primary" @click="update"><i class="fa fa-pencil-square-o"></i>&nbsp;修改</a>
+            </#if>
+            <#if shiro.hasPermission("sys:goods:delete")>
+            <a class="btn btn-primary" @click="del"><i class="fa fa-trash-o"></i>&nbsp;删除</a>
+            </#if>
+        </div>
+        <table id="jqGrid"></table>
+        <div id="jqGridPager"></div>
+    </div>
+
+    <div v-show="!showList" class="panel panel-default">
+        <div class="panel-heading">{{title}}</div>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <div class="col-sm-2 control-label">主要生产单元名称</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.name" placeholder="主要生产单元名称"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label">主要工艺名称</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.technologyName" placeholder="主要工艺名称"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label">生产设施名称</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.facName" placeholder="生产设施名称"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label">生产设施编号</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.facId" placeholder="生产设施编号"/>
+                </div>
+            </div>
+            <!---->
+            <div class="input-box form-group">
+                <div class="form-group col-sm-4 fixtest">
+                    <div class="col-sm-5 control-label fixtest">参数名称</div>
+                    <div class="col-sm-7 fixtest">
+                        <input type="text" class="form-control" v-model="info.paramName" placeholder="参数名称"/>
+                    </div>
+                </div>
+                <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -20px">
+                    <div class="col-sm-4 control-label fixtest">设计值</div>
+                    <div class="col-sm-8 fixtest">
+                        <input type="text" class="form-control" v-model="info.paramDesignValue" placeholder="设计值"/>
+                    </div>
+                </div>
+                <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -20px">
+                    <div class="col-sm-5 control-label fixtest">计量单位</div>
+                    <div class="col-sm-7 fixtest">
+                        <input type="text" class="form-control" v-model="info.paramUnit" placeholder="计量单位"/>
+                    </div>
+                </div>
+            </div>
+
+            <!---->
+            <div class="form-group">
+                <div class="col-sm-2 control-label">其他设施参数信息</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.otherParamInfo" placeholder="其他设施参数信息"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label">其他设施信息</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.otherFacNum" placeholder="其他设施信息"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label">产品名称</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="info.productName" placeholder="产品名称"/>
+                </div>
+            </div>
+            <!---->
+            <div class="input-box form-group">
+                <div class="form-group col-sm-4 fixtest">
+                    <div class="col-sm-5 control-label fixtest">计量单位</div>
+                    <div class="col-sm-5 fixtest">
+                        <input type="text" class="form-control" v-model="info.unit" placeholder="计量单位"/>
+                    </div>
+                </div>
+                <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -60px;padding-right: 0">
+                    <div class="col-sm-6 control-label fixtest">产品设计产能</div>
+                    <div class="col-sm-6 fixtest">
+                        <input type="text" class="form-control" v-model="info.designCapacity" placeholder="产品设计产能"/>
+                    </div>
+                </div>
+                <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -30px;padding-right: 0">
+                    <div class="col-sm-8 control-label fixtest">设计年运行时间(h)</div>
+                    <div class="col-sm-4 fixtest">
+                        <input type="text" class="form-control" v-model="info.runTime" placeholder="时间(h)"/>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="form-group">
+                <div class="col-sm-2 control-label">其他产品信息</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-info" v-model="info.otherInfo" placeholder="其他产品信息"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label">其他工艺信息</div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-info" v-model="info.otherTechnoInfo" placeholder="其他工艺信息"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2 control-label"></div>
+                <input type="button" class="btn btn-primary" id="btnSaveOrUpdate" data-loading-text="保存中..."
+                       @click="saveOrUpdate" value="确定"/>
+                &nbsp;&nbsp;<input type="button" class="btn btn-warning" @click="reload" value="返回"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="${request.contextPath}/statics/js/modules/produce/capacity.js?_${.now?long}"></script>
+</body>
+</html>

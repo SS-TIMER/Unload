@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>创建申请表</title>
+    <#include "/header.html">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/found.css">
+
+
+</head>
+<body>
+<div class="box_apply" id="rrapp">
+    <div class="box_head">
+        <h3 id="h3_head">创建申请表</h3>
+    </div>
+    <form class="form-horizontal" >
+        <div class="form-group">
+            <div class="col-sm-2 control-label">申请表名称</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="name1" placeholder="申请表名称"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">申请行业类型</div>
+            <div class="col-sm-10">
+                <!--
+                                <input type="text" class="form-control" v-model="info.dischargeId" placeholder="申请行业类型"/>
+                -->
+                <select class="form-control" v-model="name2" placeholder="申请行业类型">
+                    <option value="1">申请行业类型</option>
+                    <option value="2">餐饮行业</option>
+                    <option value="3">水泥行业</option>
+                    <option value="4">化工行业</option>
+                    <option value="5">装修行业</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">创建人</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="name3" placeholder="创建人"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">联系手机</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="name4" placeholder="联系手机"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2 control-label">联系邮箱</div>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" v-model="name5" placeholder="联系邮箱"/>
+            </div>
+        </div>
+    </form>
+    <div class="box_end">
+        <div class="col-sm-2 control-label"></div>
+        <a target="_parent">
+            <input id="go" type="button" class="btn btn-primary" id="btnSaveOrUpdate" data-loading-text="保存中..."
+                   @click="query" value="开始创建申请表" />
+        </a>
+    </div>
+</div>
+<script src="${request.contextPath}/statics/libs/bootstrap-select.min.js"></script>
+<script src="${request.contextPath}/statics/js/modules/licence/found.js?_${.now?long}"></script>
+</body>
+</html>
