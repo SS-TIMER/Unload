@@ -2,63 +2,494 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba507a50-3458-4f57-91b5-456d801a95ed" name="Default Changelist" comment="修改字">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/basicinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/basicinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/found.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/found.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/basicinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/basicinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/common/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/common/config/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/oss/cloud/CloudStorageConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/oss/cloud/CloudStorageConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/controller/SysBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/controller/SysBookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/controller/SysPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/controller/SysPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/dao/SysMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/dao/SysMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/dao/SysUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/dao/SysUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysBookEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysBookEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysClassEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysClassEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysConfigEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysConfigEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysMenuEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysMenuEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysRoleMenuEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysRoleMenuEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysStudentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/entity/SysStudentEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysBookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysConfigService.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysConfigService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysRoleMenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysRoleMenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/service/SysStudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/shiro/UserRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/io/renren/modules/sys/shiro/UserRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/basicinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/basicinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/found.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/found.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/main1.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/main1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/basicinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/basicinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/found.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/found.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/ApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/controller/ApiLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/controller/ApiLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/controller/ApiRegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/controller/ApiRegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/controller/ApiTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/controller/ApiTestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/entity/TokenEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/entity/TokenEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/exception/RRExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/exception/RRExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/form/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/form/LoginForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/form/RegisterForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/form/RegisterForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/interceptor/AuthorizationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/interceptor/AuthorizationInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/resolver/LoginUserHandlerMethodArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/resolver/LoginUserHandlerMethodArgumentResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/TokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/TokenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/impl/TokenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/impl/TokenServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/target/classes/io/renren/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-common/target/renren-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/renren-common/target/renren-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/aspect/DataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/aspect/DataSourceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/config/DynamicContextHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/config/DynamicContextHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/config/DynamicDataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/config/DynamicDataSourceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/config/DynamicDataSourceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/config/DynamicDataSourceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/properties/DataSourceProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/properties/DataSourceProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/properties/DynamicDataSourceProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/io/renren/commons/dynamic/datasource/properties/DynamicDataSourceProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/renren-dynamic-datasource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/renren-dynamic-datasource.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/job/ScheduleJobDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/job/ScheduleJobLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/oss/SysOssDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/produce/CapacityDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysBookDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysClassDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysConfigDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysDeptDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysDictDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysRoleDeptDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysRoleMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysStudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/mapper/sys/SysUserRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/css/typography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/fonts/DroidSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/fonts/DroidSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/explorer_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/logo_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/pet_store_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/throbber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/images/wordnik_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/index.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lang/translator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/backbone-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/es5-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/handlebars-4.0.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/highlight.9.1.0.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/highlight.9.1.0.pack_extended.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/jquery-1.8.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/jquery.ba-bbq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/jquery.slideto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/jquery.wiggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/js-yaml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/jsoneditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/marked.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/object-assign-pollyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/sanitize-html.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/lib/swagger-oauth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/o2c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/public/swagger/swagger-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/alltable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/basicinfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/bootstrap-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/companyinfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/found.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/index1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/20161129162441_6332.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/20161129183259_3925.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/20161130110648_9055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/20161207142254_8572.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/ellipsis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/foot_logo2_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/in_imgcase5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/indexbgc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/indexbgc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/loginin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/pwxk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/register_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/image/two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/homedata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/index1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/job/schedule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/job/schedule_log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/basicinfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/found.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/manage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/oss/oss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/dqpfydxkl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/dqpfzxkl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/dqwrw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/dqwrwqc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/dqwrws.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/dqwrwwzz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/swrwpf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/swrwpfqc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/swrwpfs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/permit/swrwpfydxk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/pollutant/atmosphere.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/pollutant/manage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/pollutant/wastegas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/pollutant/wastewater_direct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/pollutant/wastewater_indirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/capacity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/fuel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/waste_gas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/waste_water.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/book.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/dept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/goods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/role.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/sysstudent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/sys/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/navtab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/ajaxupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/bootstrap-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/defaults-zh_CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/vue-validator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/libs/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/icheck.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/line/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/icheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/laydate/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/laydate/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/dest/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/dest/layui.mod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/lib/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/modules/icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/layui/modules/pjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/img/collapse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/img/expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/img/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/img/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/jquery.treegrid.bootstrap3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/jquery.treegrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/jquery.treegrid.extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/jquery.treegrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/treegrid/tree.table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/awesomeStyle/awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/awesomeStyle/awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/awesomeStyle/fa.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/awesomeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/metroStyle/img/line_conn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/metroStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/metroStyle/img/metro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/metroStyle/img/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/metroStyle/metroStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/diy/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/css/zTreeStyle/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/plugins/ztree/jquery.ztree.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/applytable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/companyinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/main1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/job/schedule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/job/schedule_log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/alltable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/basicinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/found.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/oss/oss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/dqpfydxkl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/dqpfzxkl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/dqwrw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/dqwrwqc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/dqwrws.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/dqwrwwzz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/swrwpf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/swrwpfqc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/swrwpfs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/permit/swrwpfydxk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/atmosphere.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/wastegas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/wastewater_direct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/wastewater_indirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/capacity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/fuel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/material.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/waste_gas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/waste_water.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/book.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/dept.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/dict.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/goods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/sysstudent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/sys/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/register1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/register2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/register3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/renren-generator/target/" />
@@ -79,23 +510,26 @@
     <session id="-485269496">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="css" value="3" />
-          <entry key="html" value="20" />
+          <entry key="css" value="4" />
+          <entry key="html" value="25" />
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
-          <entry key="js" value="15" />
+          <entry key="js" value="16" />
           <entry key="txt" value="1" />
           <entry key="xml" value="4" />
           <entry key="yml" value="9" />
@@ -103,11 +537,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="20" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="25" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="JavaScript" value="15" />
+          <entry key="JavaScript" value="16" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="4" />
           <entry key="YAML" value="9" />
@@ -115,20 +549,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="258" />
+          <entry key="html" value="269" />
           <entry key="java" value="3" />
           <entry key="js" value="770" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="24" />
           <entry key="xml" value="9" />
           <entry key="yml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="258" />
+          <entry key="HTML" value="269" />
           <entry key="JAVA" value="3" />
           <entry key="JavaScript" value="770" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="9" />
           <entry key="YAML" value="17" />
         </counts>
@@ -196,90 +630,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/basicinfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-565">
-              <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="170" column="33" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="271" column="91" selection-start-line="271" selection-start-column="91" selection-end-line="271" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="316">
+              <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -288,7 +648,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>排污许可证办公系统</find>
       <find>参数</find>
       <find>排污许可证</find>
       <find>排污许可管理系统</find>
@@ -318,6 +677,7 @@
       <find>basicinfo</find>
       <find>login</find>
       <find>logout</find>
+      <find>aboutUs</find>
     </findStrings>
     <replaceStrings>
       <replace>排污许可管理系统</replace>
@@ -341,7 +701,6 @@
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/manage.js" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysPageController.java" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/config/ShiroConfig.java" />
@@ -354,8 +713,9 @@
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/main.js" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/index.js" />
+        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html" />
+        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html" />
       </list>
     </option>
   </component>
@@ -391,7 +751,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="487" />
     <option name="y" value="39" />
     <option name="width" value="1400" />
@@ -477,104 +837,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="licence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="pollutant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="produce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unload" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unload" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="licence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unload" type="b2602c69:ProjectViewProjectNode" />
@@ -595,7 +858,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556364957325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556417920996" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../safe-city" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -605,16 +868,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\templates\modules\licence" />
-      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\statics\js\modules\licence" />
-      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\statics\js" />
-      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\templates" />
-      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\statics\image" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\templates" />
       <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\templates" />
+      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\libs" />
+      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\css" />
+      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\image" />
+      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\templates\modules\licence" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -676,24 +939,6 @@
     <configuration>C:\Users\LJH\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\IdeaProject\svn\unload" />
-          <option name="myCopyRoot" value="D:\IdeaProject\svn\unload" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\IdeaProject\svn\unload" />
-          <option name="myCopyRoot" value="D:\IdeaProject\svn\unload" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ba507a50-3458-4f57-91b5-456d801a95ed" name="Default Changelist" comment="" />
@@ -717,6 +962,9 @@
       <workItem from="1556282472513" duration="500000" />
       <workItem from="1556345101975" duration="5150000" />
       <workItem from="1556357835138" duration="3448000" />
+      <workItem from="1556369804561" duration="773000" />
+      <workItem from="1556370757942" duration="226000" />
+      <workItem from="1556415323319" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="修改首页">
       <created>1556088830461</created>
@@ -830,11 +1078,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556358403634</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改字">
+      <created>1556370204804</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556370204805</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改首页">
+      <created>1556416164591</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556416164591</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67574000" />
+    <option name="totallyTimeSpent" value="71766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,9 +1108,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.14818764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50080514" side_tool="true" weight="0.26332623" />
@@ -871,12 +1133,12 @@
       <window_info anchor="bottom" id="Problems" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4978678" weight="0.27735645" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4978678" visible="true" weight="0.27548808" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="15" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="18" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49733475" visible="true" weight="0.31960997" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49733475" weight="0.30043384" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -884,7 +1146,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.23560767" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
@@ -975,10 +1237,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="修改公共启动" />
-    <MESSAGE value="修改首页" />
     <MESSAGE value="修改字" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改字" />
+    <MESSAGE value="修改首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改首页" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1153,13 +1418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="100" column="32" lean-forward="true" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/index1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1879">
@@ -1199,9 +1457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-          <folding>
-            <element signature="e#2147#2153#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,20 +1474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="170" column="33" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/basicinfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -1240,16 +1481,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="271" column="91" selection-start-line="271" selection-start-column="91" selection-end-line="271" selection-end-column="91" />
+        <state relative-caret-position="4020">
+          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/basicinfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
+        <state relative-caret-position="2400">
           <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1260,41 +1518,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="1380">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="271" column="27" selection-start-line="271" selection-start-column="27" selection-end-line="271" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/css/index2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/libs/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/basicinfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/found.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
         </state>
       </provider>
     </entry>
