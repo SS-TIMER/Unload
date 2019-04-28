@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>首页</title>
     <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/index2.css">
+    <script type="text/javascript" src="${request.contextPath}/statics/libs/jquery-1.9.1.min.js"></script>
+    <script src="${request.contextPath}/statics/libs/common.js"></script>
     <style>
         * {
             margin: 0;
             padding: 0;
         }
-        li{
+
+        li {
             list-style: none;
         }
 
@@ -24,9 +28,13 @@
             border: none;
         }
 
+        .container-fluid {
+            height: 80px;
+            background: rgb(255, 255, 255)
+        }
+
         .navbar-default {
-            margin-top: 2px;
-            background: rgb(130, 130, 130,0.4);
+            margin-top: 20px;
         }
 
         .btn-default {
@@ -35,10 +43,12 @@
 
         .nav > li {
             margin-left: 8px;
+
         }
 
         .navbar-default .navbar-nav > li > a {
-            color: white;
+            color: black;
+            font-size: 18px;
         }
 
         .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -58,24 +68,16 @@
             padding: 0 10px;
 
         }
-        .aboutUs{
+
+        .aboutUs {
             width: 100%;
             height: auto;
-            background-color: rgb(245,245,245);
+            background-color: rgb(245, 245, 245);
             margin: 50px 0 0 0;
         }
-        .aboutUs .aboutUs-left{
-            float: left;
-            width: 46%;
-        }
-        .aboutUs .aboutUs-right{
 
-            width: 50%;
-            height: 200px;
-            float: right;
-        }
         /*合作案例*/
-        #section1 .row .col-sm-4{
+        #section1 .row .col-sm-4 {
             float: left;
             width: 360px;
             height: auto;
@@ -85,19 +87,22 @@
             box-shadow: #777 0 0 2px;
             padding: 10px 6px 10px 6px;
         }
-        #section1 .row .col-sm-4 .cooperationCase_image{
+
+        #section1 .row .col-sm-4 .cooperationCase_image {
             overflow: hidden;
         }
-        #section1 .row .col-sm-4 .cooperationCase_image img{
+
+        #section1 .row .col-sm-4 .cooperationCase_image img {
             width: 100%;
             height: 100%;
         }
-        #section1 .row .col-sm-4 .cooperationCase_content{
+
+        #section1 .row .col-sm-4 .cooperationCase_content {
             margin: 4px auto;
             width: 340px;
-            height: 100px;
         }
-        #section1 .row .col-sm-4 .cooperationCase_content a span{
+
+        #section1 .row .col-sm-4 .cooperationCase_content a span {
             text-indent: 25px;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -105,33 +110,33 @@
             -webkit-line-clamp: 5;
             -webkit-box-orient: vertical;
         }
+
         /*关于我们*/
-        #section2{
+        #section2 {
             border-bottom: 2px solid #777;
             margin: 10px 0 0 0;
         }
-        .foot_r_logo {
-            width: 136px;
-            float: left;
-            margin-right: 56px;
-            line-height: 38px;
-        }
+
         .foot_r_logo h4 {
             font-weight: normal;
             margin-bottom: 4px;
         }
+
         .footer_r dl {
             width: 180px;
             float: left;
         }
+
         .footer_r ul {
             width: auto;
             float: left;
             margin-left: 55px;
         }
+
         .footer_r ul li {
             line-height: 38px;
         }
+
         .footer_r dl dt, .footer_r dl dd {
             border-bottom: 1px dotted #b4b4b4;
             line-height: 38px;
@@ -150,6 +155,22 @@
 
         .footer-controller {
             margin: 30px 8px 2px 10px;
+        }
+
+        .box_li {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 108px;
+            font-size: 16px;
+            color: #2b2b2b;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", arial, "\5b8b\4f53";
+        }
+
+        .box_end_2 ul li {
+            padding-top: 10px;
         }
     </style>
 </head>
@@ -170,12 +191,13 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="#">
-                            <img src="${request.contextPath}/statics/image/loginin.png" alt="" width="90" height="20">
+                            <img src="${request.contextPath}/statics/image/loginin.png" alt="" width="140" height="60">
                         </a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse box_li" id="bs-example-navbar-collapse-1"
+                         style="margin-top: 25px">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="javascript:void(0)">首页 <span class="sr-only">(current)</span></a></li>
                             <li><a href="#section">产品服务</a></li>
@@ -199,7 +221,7 @@
     </div>
 </header>
 <!--轮播图-->
-<div class="carousel">
+<div class="carousel" style="margin-top: 10px; margin-bottom: 95px;">
     <div class="">
 
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -211,24 +233,30 @@
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner"  role="listbox">
+            <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="${request.contextPath}/statics/image/20161129183259_3925.gif" alt="...">
+                    <img src="${request.contextPath}/statics/image/20161129183259_3925.gif" alt="..."
+                         style="width:1347px; height:453px;">
                     <div class="carousel-caption">
-
                     </div>
                 </div>
                 <div class="item">
-                    <img src="${request.contextPath}/statics/image/20161130110648_9055.jpg" alt="...">
+                    <img src="${request.contextPath}/statics/image/zhhl_1.gif" alt="..."
+                         style="width:1347px; height:453px;">
                     <div class="carousel-caption">
-
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="${request.contextPath}/statics/image/zhhl_2.gif" alt="..."
+                         style="width:1347px; height:453px;">
+                    <div class="carousel-caption">
                     </div>
                 </div>
 
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control"  href="#carousel-example-generic" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only"></span>
             </a>
@@ -239,147 +267,149 @@
         </div>
     </div>
 </div>
-<!--产品服务-->
+
+<!--产业服务-->
 <section id="section">
-    <div class="container">
-        <div class="title" align="center">
-            <h4>
-                产品服务
-            </h4>
+    <div class="in_product">
+        <div align="center">
+            <h4>产品服务</h4>
         </div>
-        <div class="carousel">
-            <div class="">
+        <div class="in_product_main fixed ratio-img on" data-ratio="0.3885" style="height: 525px;">
+            <div class="in_product_main_l proHover"><img src="${request.contextPath}/statics/image/in_imgcase2.jpg">
+                <div class="in_product_txt"><h5><a>环保产业</a><em></em>
+                </h5>
+                    <p>
+                        环保产业是指在国民经济结构中，以防治环境污染、改善生态环境、保护自然资源为目的而进行的技术产品开发、商业流通、资源利用、信息服务、工程承包等活动的总称。
+                        它在美国称为“环境产业”，在日本称为“生态产业”或“生态商务”。</p>                </div>
+                <i></i></div>
+            <div class="in_product_main_r">
+                <div class="in_product_main_t fixed">
+                    <div class="in_product_main_t_l proHover"><img
+                            src="${request.contextPath}/statics/image/in_imgcase3.jpg">
+                        <div class="in_product_txt"><h5><a>环境服务</a><em></em></h5>
+                            <p>
+                                环境服务是指与环境相关的服务贸易活动，是现代服务业的重要分支，不仅在生产性服务业中占有很大比例，同时在消费性服务业中占有很重要的地位，也是我国“十二五”期间战略性新兴产业重要的组成部分。环境服务的发展水平是环保产业成熟度的重要标志。</p>
+                          </div>
+                        <i></i></div>
+                    <div class="in_product_main_t_r proHover"><img
+                            src="${request.contextPath}/statics/image/in_imgcase4.jpg">
+                        <div class="in_product_txt"><h5><a>环保学说</a><em></em></h5>
+                            <p>
+                                据2019年2月18日中国知网显示，《生态环境学报》出版文献共6353篇、总被下载285997次、总被引77298次；（2018版）复合影响因子为2.211、（2018版）综合影响因子为1.532 [3]  。据2019年2月18日万方数据知识服务平台显示，《生态环境学报》载文量为3791篇，基金论文量为3182篇，被引量为77298、下载量为285997，2015年影响因子为0.88 [4]  。</p>
 
-                <div  class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="${request.contextPath}/statics/image/indexbgc.jpg" alt="...">
-                            <div class="carousel-caption">
-
-                            </div>
                         </div>
-                        <div class="item">
-                            <img src="${request.contextPath}/statics/image/indexbgc.jpg" alt="...">
-                            <div class="carousel-caption">
-
-                            </div>
+                        <i></i></div>
+                </div>
+                <div class="in_product_main_b fixed">
+                    <div class="in_product_main_b_l proHover"><img
+                            src="${request.contextPath}/statics/image/in_imgcase5.jpg">
+                        <div class="in_product_txt"><h5><a>生态建设</a><em></em>
+                        </h5>
+                            <p>生态建设简称ECO，ECO是Eco-build的缩写，主要是对受人为活动干扰和破坏的生态系统进行生态恢复和重建，是根据生态学原理进行的人工设计，充分利用现代科学技术，充分利用生态系统的自然规律，是自然和人工的结合，达到高效和谐，实现环境，经济、社会效益的统一。</p>
                         </div>
-
-                    </div>
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only"></span>
-                    </a>
+                        <i></i></div>
+                    <div class="in_product_main_b_r proHover"><img
+                            src="${request.contextPath}/statics/image/in_imgcase6.jpg">
+                        <div class="in_product_txt"><a>环保项目</a><h5>
+                               <em></em></h5>
+                            <p>发展先进环保技术和装备，包括污水、垃圾处理，脱硫脱硝，高浓度有机废水治理，土壤修复，监测设备等，重点攻克膜生物反应器、反硝化除磷、湖泊蓝藻治理和污泥无害化处理技术装备等； 发展环保产品，包括环保材料、环保药剂，重点研发和产业化示范膜材料、高性能防渗材料、脱硝催化剂、固废处理固化剂和稳定剂、持久性有机污染物替代产品等；</p>
+                        <i></i></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!--合作案例-->
 <section id="section1">
     <div class="container">
-        <div class="title" align="center">
-            <h4>
-                合作案例
-            </h4>
+        <div align="center">
+            <h4>合作案例</h4>
         </div>
-<div class="row">
-    <div class="col-sm-4">
-        <div class="cooperationCase_image">
-            <img src="${request.contextPath}/statics/image/in_imgcase5.jpg"/>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="cooperationCase_image">
+                    <img src="${request.contextPath}/statics/image/20161207142254_8572.jpg"  style="height:185px;"/>
+                </div>
+                <div class="cooperationCase_content">
+                <span>环境保护又是指人类有意识地保护自然资源。</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cooperationCase_image">
+                    <img src="${request.contextPath}/statics/image/20161207142254_8572.jpg" style="height:185px;"/>
+                </div>
+                <div class="cooperationCase_content">
+                <span>美国生物学家蕾切尔在《寂静的春天》描述了环保。</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cooperationCase_image">
+                    <img src="${request.contextPath}/statics/image/20161129162441_6332.jpg" style="height:185px;"/>
+                </div>
+                <div class="cooperationCase_content">
+                <span>环保，全称环境保护，是指人类为解决环境问题。</span>
+                </div>
+            </div>
         </div>
-        <div class="cooperationCase_content">
-            <a href="#">
-                <span>环境保护又是指人类有意识地保护自然资源并使其得到合理的利用，
-                    防止自然环境受到污染和破坏；对受到污染和破坏的环境必须做好综合治理，
-                    以创造出适合于人类生活、工作的环境。环境保护是指人类为解决现实的或潜在的环境问题，
-                    协调人类与环境的关系，保障经济社会的持续发展而采取的各种行动的总称。
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="cooperationCase_image">
+                    <img src="${request.contextPath}/statics/image/20161207142254_8572.jpg" style="height:185px;"/>
+                </div>
+                <div class="cooperationCase_content">
+                <span>环境保护又是指人类有意识地保护自然资源。
                 </span>
-            </a>
-
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="cooperationCase_image">
-            <img src="${request.contextPath}/statics/image/20161207142254_8572.jpg"/>
-        </div>
-        <div class="cooperationCase_content">
-            <a href="#">
-                <span>1962年美国海洋生物学家蕾切尔·卡逊在《寂静的春天》一书中明确描述了农药杀虫剂DDT对环境的污染和破坏环境作用，由于该书的警示，美国政府开始对剧毒杀虫剂问题进行调查，并于1970年成立了环境保护局，
-                    各州也相继通过禁止生产和使用剧毒杀虫剂的法律。由于此事，该书被认为是20世纪环境生态学的标志性起点。
-               </span>
-            </a>
-
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="cooperationCase_image">
-            <img src="${request.contextPath}/statics/image/20161129162441_6332.jpg"/>
-        </div>
-        <div class="cooperationCase_content">
-            <a href="#">
-                <span>环保，全称环境保护，是指人类为解决现实的或潜在的环境问题，协调人类与环境的关系，保障经济、社会的持续发展而采取的各种行动的总称。
-                    其方法和手段有工程技术的、行政管理的、创新研发的，也有法律的、经济的、宣传教育的等。
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cooperationCase_image">
+                    <img src="${request.contextPath}/statics/image/20161207142254_8572.jpg" style="height:185px;"/>
+                </div>
+                <div class="cooperationCase_content">
+                <span>《寂静的春天》认为是20世纪环境生态学起点。</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cooperationCase_image">
+                    <img src="${request.contextPath}/statics/image/20161129162441_6332.jpg" style="height:185px;"/>
+                </div>
+                <div class="cooperationCase_content">
+                <span>环保也有法律的、经济的、宣传教育的等。
                 </span>
-            </a>
-
+                </div>
+            </div>
         </div>
-    </div>
-</div>
     </div>
 </section>
-<section id="section2">
+
+<!--关于我们-->
+<section id="section2" style="margin-bottom: 50px">
     <div class="container">
-        <div class="title" align="center">
+        <div align="center">
             <h4>
                 关于我们
             </h4>
         </div>
         <div class="aboutUs">
-            <div class="aboutUs-left">
-                <div class="footer_l">
-                    <h3>关于环保</h3>
-                    <h5>1962年美国海洋生物学家蕾切尔·卡逊在《寂静的春天》一书中明确描述了农药杀虫剂DDT对环境的污染和破坏环境作用，由于该书的警示，美国政府开始对剧毒杀虫剂问题进行调查，并于1970年成立了环境保护局，
-                        各州也相继通过禁止生产和使用剧毒杀虫剂的法律。由于此事，该书被认为是20世纪环境生态学的标志性起点。
-                    </h5>
-                    <p></p>
-
+            <div class="box_end_1" style="margin-top: 50px;">
+                <span style="font-size:22px;font-weight: bold">臻合慧联：</span><br>
+                <span style="font-size: 16px">臻和慧联植根北大，致力于持续提供卓越的产品与服务，为人们创造更智能、更健康、更环保的生活。
+                        我们以塑造一流专业团队、传承健康企业文化、实现产业报国理想为己任，努力成为为环保服务的大型企业。
+                    </span>
+            </div>
+            <div class="box_end_2" style="margin-top: 50px;">
+                <span style="font-size:22px;font-weight: bold">联系我们：</span><br>
+                <span style="font-size: 16px">
+                        <ul>
+                           <li>企业名称：臻和慧联科技有限公司</li>
+                           <li>所在地区：福建省厦门市集美区城区</li>
+                           <li>企业邮箱：50530820@qq.com</li>
+                           <li>联系手机：18850583960</li>
+                         </ul>
+                    </span>
             </div>
         </div>
-            <div class="aboutUs-right">
-                <div class="footer_r">
-                    <div class="foot_r_logo">
-                        <h5>友情链接</h5>
-                    </div>
-                    <dl>
-                        <dt>我猜您是</dt>
-                        <dd><a href="javascript:void(0)">求职者</a></dd>
-                        <dd><a href="javascript:void(0)">投资者</a></dd>
-                        <dd><a href="javascript:void(0)">商业伙伴</a></dd>
-                        <dd><a href="javascript:void(0)">新闻媒体</a></dd>
-                    </dl>
-                    <ul>
-                        <li><a href="javascript:void(0)">联系我们</a></li>
-                        <li><a href="javascript:void(0)">网站地图</a></li>
-                        <li><a href="javascript:void(0)">法律声明</a></li>
-                        <li class="about_wx"><a href="javascript:void(0)">关注我们</a></li>
-                    </ul>
-                </div>
-            </div>
-    </div>
 </section>
 <footer id="footer">
     <div class="container">
