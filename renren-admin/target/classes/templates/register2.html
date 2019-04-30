@@ -91,7 +91,17 @@
             font-size: 20px;
             margin: 10px 0 22px 0;
         }
-        .register-form .phoneNum{
+        .register-form .phoneNum select{
+            width: 77px;
+            height: 30px;
+            border-radius:4px ;
+            color: #888;
+            vertical-align: middle;
+        }
+        .register-form .phoneNum select option{
+            text-align: center;
+            vertical-align: middle;
+            margin-left: 6px;
         }
         .register-form .phoneNum input{
             margin: 5px auto;
@@ -136,8 +146,21 @@
         <div class="phoneNum">
             <input type="text" class="form-control" v-model="phoneNum" placeholder="统一社会信用代码">
         </div>
-        <div class="phoneNum">
-            <input type="text" class="form-control" v-model="phoneNum" placeholder="所在地区">
+        <div class="phoneNum " >
+            <select class="" style="">
+                <option>--省--</option>
+                <option>福建省</option>
+            </select>
+
+            <select>
+                <option>--市--</option>
+                <option>厦门市</option>
+            </select>
+
+            <select>
+                <option>--县/区--</option>
+                <option>集美区</option>
+            </select>
         </div>
         <div class="phoneNum">
             <input type="text" class="form-control" v-model="phoneNum" placeholder="企业邮箱">
