@@ -54,19 +54,27 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">主要生产单元名称</div>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" v-model="info.name" placeholder="主要生产单元名称"/>
+                    <select class="form-control" onchange="changeWndNum(this);">
+                        <option  v-for="tab in opt">{{ tab }}</option>
+                    </select>
                 </div>
+
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">主要工艺名称</div>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" v-model="info.technologyName" placeholder="主要工艺名称"/>
+                    <select class="form-control" onchange="changeWndNumm(this);">
+                        <option  v-for="tab in optt">{{ tab }}</option>
+                    </select>
                 </div>
+
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">生产设施名称</div>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" v-model="info.facName" placeholder="生产设施名称"/>
+                    <select class="form-control" >
+                        <option  v-for="tab in opttt">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">

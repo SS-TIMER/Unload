@@ -71,6 +71,9 @@ var vm = new Vue({
         title: null,
         tempId: null,
         info: {},
+        opt:[1,2],
+        optt:[1,2,3],
+        opttt:[4,5,6],
         myInfoData: [
             {
                 "id": 1,
@@ -281,3 +284,39 @@ var vm = new Vue({
         }
     }
 });
+function changeWndNum(val) {
+    vm.optt=[];
+    if(val.value==1)
+    {
+        for(var i=1;i<4;i++)
+        {
+            vm.optt.push(i)
+        }
+    }
+
+    if(val.value==2)
+    {
+        for(var i=5;i<8;i++)
+        {
+            vm.optt.push(i)
+        }
+    }
+
+}
+function changeWndNumm(val) {
+    vm.opttt=[];
+    if(val.value==1||val.value==2||val.value==3)
+    {
+        for(var i=4;i<7;i++)
+        {
+            vm.opttt.push(i)
+        }
+    }
+    if(val.value==4||val.value==5||val.value==6)
+    {
+        for(var i=7;i<10;i++)
+        {
+            vm.opttt.push(i)
+        }
+    }
+}
