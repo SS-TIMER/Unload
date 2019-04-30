@@ -79,8 +79,8 @@ public class SysPageController {
 
 
 
-    @RequestMapping("index2.html")
-    public String index2() {
+    @RequestMapping("home.html")
+    public String home() {
         return "index2";
     }
     @RequestMapping("register1.html")

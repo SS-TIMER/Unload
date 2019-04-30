@@ -72,7 +72,7 @@ public class ShiroConfig {
     public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager) {
         ShiroFilterFactoryBean shiroFilter = new ShiroFilterFactoryBean();
         shiroFilter.setSecurityManager(securityManager);
-        shiroFilter.setLoginUrl("/index2.html");
+        shiroFilter.setLoginUrl("/home.html");
         shiroFilter.setUnauthorizedUrl("/");
 
         Map<String, String> filterMap = new LinkedHashMap<>();
@@ -84,7 +84,7 @@ public class ShiroConfig {
 
         filterMap.put("/statics/**", "anon");
         filterMap.put("/login.html", "anon");
-        filterMap.put("/index2.html", "anon");
+        filterMap.put("/home.html", "anon");
         filterMap.put("/register1.html", "anon");
         filterMap.put("/register2.html", "anon");
         filterMap.put("/register3.html", "anon");
