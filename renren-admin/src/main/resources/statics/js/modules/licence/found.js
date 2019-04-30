@@ -36,7 +36,7 @@ var vm = new Vue({
         title: null,
         tempId: null,
         name1:'',
-        name2:'',
+        name2:'未选择',
         name3:'',
         name4:'',
         name5:'',
