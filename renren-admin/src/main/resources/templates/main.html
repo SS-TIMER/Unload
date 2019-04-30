@@ -19,7 +19,7 @@
         }
         .main_header {
             padding: 10px 0 20px 10px;
-            margin-top: 50px;
+            margin-top: -50px;
         }
 
         .align_left {
@@ -28,6 +28,19 @@
 
         .align_right {
             text-align: right;
+        }
+        .main_show{
+            background-color: #f4f4f4;
+        }
+        .alltable{
+            margin-bottom: 20px;
+            margin-top: -10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #f4f4f4;
+        }
+        .alltable .col-sm-4{
+            background-color: #FFFFFF;
         }
 
         .main-banner {
@@ -143,11 +156,8 @@
         }
 
         .hide {
-
             position: absolute;
-
             top: -9999px;
-
             left: -9999px;
 
         }
@@ -158,12 +168,14 @@
 
         /*    */
         .row-new {
+            box-shadow: 4px 4px 5px #2f96b9;
+            margin-bottom: 15px;
             display: inline-block;
             float: left;
             border-top: none;
             font-size: 0;
             margin-left: 0;
-            margin-right: 10px;
+            margin-right: 15px;
         }
 
         .btn {
@@ -174,7 +186,7 @@
         }
 
         .row-new .col-sm-4 {
-            margin: 6px 0 0 0;
+            /*margin: 6px 0 0 0;*/
             text-align: center;
             width: 365px;
             height: auto;
@@ -241,7 +253,7 @@
             <div class="col-md-4 col-xs-12 row" style="height: 34px">
                 <div class="col-md-6 col-xs-12 align_right" style="float: right">
                     <select id="select" name="select" class="selectpicker show-tick form-control"
-                            style="float:right;height: 32px" placeholder="选择企业类型">
+                            style="float:right" placeholder="选择企业类型">
                         <option value="0">选择企业类型</option>
                         <option value="水泥行业">水泥行业</option>
                         <option value="物联网企业">物联网企业</option>
@@ -252,16 +264,19 @@
             <div class="col-md-4 col-xs-12 align_left row">
                 <input type="text" class="form-control col-md-8" id="search02" placeholder="搜索名称">
             </div>
-            <div class="create col-md-4 col-xs-12" style="margin-top: -2px">
+            <div class="create col-md-4 col-xs-12" style="margin-top: -1px">
                 <a target="_parent" href="${request.contextPath}/#modules/licence/found.html">
                     <input type="button" style="height: 32px;" class="btn btn-primary col-md-5 col-xs-11" id="btnSaveOrUpdate" value="创建申请表"/>
                 </a>
             </div>
         </div>
     </div>
-    <div class="container" style="margin-bottom: 20px">
-        <!-- vue生成的菜单 -->
-        <menu-item :item="item"  :index="index" v-for="item,index in menuList"></menu-item>
+
+    <div class="main_show">
+        <div class="container alltable">
+            <!-- vue生成的菜单 -->
+            <menu-item :item="item"  :index="index" v-for="item,index in menuList"></menu-item>
+        </div>
     </div>
     <div class="footer hide">
         <table class="ui-pg-table ui-common-table ui-paging-pager">

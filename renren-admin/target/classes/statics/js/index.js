@@ -87,9 +87,9 @@ var vm = new Vue({
 		updatePassword: function(){
 			layer.open({
 				type: 1,
-				skin: 'layui-layer-molv',
+				skin: 'AdminLTE',
 				title: "修改密码",
-				area: ['550px', '270px'],
+				area: ['850px', '270px'],
 				shadeClose: false,
 				content: jQuery("#passwordLayer"),
 				btn: ['修改','取消'],

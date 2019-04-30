@@ -4,29 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>首页</title>
-    <!--    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">-->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap.min.css">
     <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="${request.contextPath}/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css">
 
     <style>
-        container {
-            width: 1170px;
-            max-width: none !important;
-        }
-
         body {
             overflow-x: hidden;
             overflow-y: auto;
         }
-
         .clear-both {
             clear: both;
         }
-
         .main_header {
             padding: 10px 0 20px 10px;
-            margin-top: 50px;
+            margin-top: -50px;
         }
 
         .align_left {
@@ -35,6 +28,19 @@
 
         .align_right {
             text-align: right;
+        }
+        .main_show{
+            background-color: #f4f4f4;
+        }
+        .alltable{
+            margin-bottom: 20px;
+            margin-top: -10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #f4f4f4;
+        }
+        .alltable .col-sm-4{
+            background-color: #FFFFFF;
         }
 
         .main-banner {
@@ -150,11 +156,8 @@
         }
 
         .hide {
-
             position: absolute;
-
             top: -9999px;
-
             left: -9999px;
 
         }
@@ -165,12 +168,14 @@
 
         /*    */
         .row-new {
+            box-shadow: 4px 4px 5px #2f96b9;
+            margin-bottom: 15px;
             display: inline-block;
             float: left;
             border-top: none;
             font-size: 0;
             margin-left: 0;
-            margin-right: 10px;
+            margin-right: 15px;
         }
 
         .btn {
@@ -181,7 +186,7 @@
         }
 
         .row-new .col-sm-4 {
-            margin: 6px 0 0 0;
+            /*margin: 6px 0 0 0;*/
             text-align: center;
             width: 365px;
             height: auto;
@@ -244,32 +249,34 @@
         <span><a href="${request.contextPath}/companyinfo.html">企业信息</a></span>
     </div>
     <div class="container">
-        <div style="margin-left: -260px" class="main_header row">
-            <div class="col-sm-6 row">
-                <div class="col-sm-5 align_right row" style="float: right;margin-right: 50px">
-                    <select id="select" name="select" class="col-sm-6 selectpicker show-tick form-control"
-                            style="float:right;height: 32px" placeholder="选择企业类型">
-                        <option value="guoqi">选择企业类型</option>
-                        <option value="guoqi">水泥行业</option>
-                        <option value="intelet">物联网企业</option>
-                        <option value="guoqi">国家企业</option>
+        <div class="main_header row">
+            <div class="col-md-4 col-xs-12 row" style="height: 34px">
+                <div class="col-md-6 col-xs-12 align_right" style="float: right">
+                    <select id="select" name="select" class="selectpicker show-tick form-control"
+                            style="float:right" placeholder="选择企业类型">
+                        <option value="0">选择企业类型</option>
+                        <option value="水泥行业">水泥行业</option>
+                        <option value="物联网企业">物联网企业</option>
+                        <option value="国家企业">国家企业</option>
                     </select>
-                    <div class="clear-both">
-                    </div>
                 </div>
             </div>
-            <div class="col-sm-5 align_left row">
-                <input type="text" style="width: 75%" class="form-control col-sm-6" id="search02" placeholder="搜索名称">
-                <a target="_parent" href="${request.contextPath}/#modules/licence/found.html">
-                    <input type="button" class="btn btn-primary col-sm-2" id="btnSaveOrUpdate" value="创建申请表"
-                           style="margin-left: 40px;"/></a>
+            <div class="col-md-4 col-xs-12 align_left row">
+                <input type="text" class="form-control col-md-8" id="search02" placeholder="搜索名称">
             </div>
-
+            <div class="create col-md-4 col-xs-12" style="margin-top: -1px">
+                <a target="_parent" href="${request.contextPath}/#modules/licence/found.html">
+                    <input type="button" style="height: 32px;" class="btn btn-primary col-md-5 col-xs-11" id="btnSaveOrUpdate" value="创建申请表"/>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="container" style="margin-bottom: 20px">
-        <!-- vue生成的菜单 -->
-        <menu-item :item="item"  :index="index" v-for="item,index in menuList"></menu-item>
+
+    <div class="main_show">
+        <div class="container alltable">
+            <!-- vue生成的菜单 -->
+            <menu-item :item="item"  :index="index" v-for="item,index in menuList"></menu-item>
+        </div>
     </div>
     <div class="footer hide">
         <table class="ui-pg-table ui-common-table ui-paging-pager">
