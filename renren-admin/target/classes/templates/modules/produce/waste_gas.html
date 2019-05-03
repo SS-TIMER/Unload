@@ -33,31 +33,56 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">生产设施编号</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.facId" placeholder="生产设施编号"/>
+-->
+                    <select class="form-control" onchange="changeWndNum(this);"  v-model="info.facId">
+                        <option  v-for="tab in type">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">生产设施名称</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.facName" placeholder="生产设施名称"/>
+-->
+                        <select class="form-control" onchange="changeWndNum(this);"  v-model="info.facName">
+                            <option  v-for="tab in item2[1]">{{ tab }}</option>
+                        </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">对应产污环节名称</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.processName" placeholder="对应产污环节名称"/>
+-->
+                    <select class="form-control"  v-model="info.processName">
+                        <option  v-for="tab in item3">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">污染物种类</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.wasteType" placeholder="污染物种类"/>
+-->
+                    <select class="form-control"  v-model="info.wasteType">
+                        <option  v-for="tab in item4">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">排放形式</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.outType" placeholder="排放形式"/>
+-->
+                    <select class="form-control"   v-model="info.outType">
+                        <option  v-for="tab in item5">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
@@ -69,19 +94,34 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">污染治理设施名称</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.fixDevName" placeholder="污染治理设施名称"/>
+-->
+                    <select class="form-control"   v-model="info.fixDevName">
+                        <option  v-for="tab in item6">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">污染治理设施工艺</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.fixDevTechno" placeholder="污染治理设施工艺"/>
+-->
+                    <select class="form-control"   v-model="info.fixDevTechno">
+                        <option  v-for="tab in item7">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">是否为可行技术</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.isOk" placeholder="是否为可行技术"/>
+-->
+                    <select class="form-control"   v-model="info.isOk">
+                        <option  v-for="tab in item8">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
@@ -105,13 +145,23 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">排放口设置是否符合要求</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.outIsOk" placeholder="排放口设置是否符合要求"/>
+-->
+                    <select class="form-control"   v-model="info.outIsOk">
+                        <option  v-for="tab in item9">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2 control-label">排放口类型</div>
                 <div class="col-sm-10">
+<!--
                     <input type="text" class="form-control" v-model="info.outTypes" placeholder="排放口类型"/>
+-->
+                    <select class="form-control"   v-model="info.outTypes">
+                        <option  v-for="tab in item10">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">

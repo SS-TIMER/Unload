@@ -3,22 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ba507a50-3458-4f57-91b5-456d801a95ed" name="Default Changelist" comment="修改字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/capacity.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/capacity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/fuel.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/fuel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/material.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/material.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/libs/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/libs/bootstrap-select.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/fuel.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/fuel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/material.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/material.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/found.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/licence/found.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/capacity.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/capacity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/found.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/licence/found.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/atmosphere.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/pollutant/atmosphere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-dynamic-datasource/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/renren-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/renren-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_gas.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_gas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_water.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_water.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_water.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_water.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/waste_gas.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/waste_gas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/waste_water.js" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/statics/js/modules/produce/waste_water.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/waste_gas.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/waste_gas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/waste_water.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/target/classes/templates/modules/produce/waste_water.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/renren-generator/target/" />
@@ -42,32 +34,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/capacity.html">
+        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_water.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="107" column="56" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+            <state relative-caret-position="115">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_gas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/capacity.js">
+        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="164" column="88" lean-forward="true" selection-start-line="164" selection-start-column="88" selection-end-line="164" selection-end-column="88" />
-              <folding>
-                <element signature="e#41#2376#0" />
-                <element signature="e#2422#2576#0" />
-                <element signature="e#2802#5424#0" />
-                <element signature="e#5804#10427#0" />
-                <element signature="e#5474#5510#0" />
-                <element signature="e#5537#5636#0" />
-                <element signature="e#5671#5916#0" />
-                <element signature="e#5957#8232#0" />
-                <element signature="e#8264#9459#0" />
-                <element signature="e#9496#9801#0" />
-                <element signature="e#9836#10062#0" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/material.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/fuel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -125,14 +131,12 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_water.js" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/manage.js" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysPageController.java" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/main1.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/licence/basicinfo.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/licence/found.js" />
@@ -152,6 +156,10 @@
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/material.js" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/capacity.html" />
         <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/capacity.js" />
+        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_water.js" />
+        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_water.html" />
+        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_gas.js" />
+        <option value="$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html" />
       </list>
     </option>
   </component>
@@ -169,10 +177,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="487" />
-    <option name="y" value="39" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="213" />
+    <option name="y" value="79" />
+    <option name="width" value="1380" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -313,16 +321,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\templates" />
-      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\templates" />
       <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\libs" />
       <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\css" />
       <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\image" />
       <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\templates\modules\licence" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\workSpace\unload\renren-admin\src\main\resources\statics\js\modules\produce" />
+      <recent name="D:\IdeaProjects\workSpace\unload\renren-admin\src\main\resources\templates\modules\produce" />
+      <recent name="D:\IdeaProject\svn\unload\renren-admin\src\main\resources\templates" />
+      <recent name="D:\IdeaProject\git\unload\renren-admin\src\main\resources\statics\js" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -412,7 +422,7 @@
       <workItem from="1556415323319" duration="3193000" />
       <workItem from="1556583253744" duration="5841000" />
       <workItem from="1556616843944" duration="1542000" />
-      <workItem from="1556685364174" duration="13686000" />
+      <workItem from="1556685364174" duration="19587000" />
     </task>
     <task id="LOCAL-00001" summary="修改首页">
       <created>1556088830461</created>
@@ -544,7 +554,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92835000" />
+    <option name="totallyTimeSpent" value="98736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,7 +598,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="19" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49733475" weight="0.22317597" />
+      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49733475" visible="true" weight="0.22317597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -741,20 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_water.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_water.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/application-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -815,13 +811,6 @@
         <state relative-caret-position="-687" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc" />
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,13 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -994,16 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/fuel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding>
-            <element signature="e#1993#3243#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/fuel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -1022,24 +994,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="58" column="12" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="12" />
-          <folding>
-            <element signature="e#1949#3171#0" />
-            <element signature="e#3192#7225#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/capacity.html">
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/fuel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="107" column="56" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+        <state relative-caret-position="214">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_water.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4239">
+          <caret line="243" column="32" lean-forward="true" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
+          <folding>
+            <element signature="e#96159#100531#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/capacity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="164" column="88" lean-forward="true" selection-start-line="164" selection-start-column="88" selection-end-line="164" selection-end-column="88" />
+        <state relative-caret-position="292">
+          <caret line="298" column="23" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
           <folding>
             <element signature="e#41#2376#0" />
             <element signature="e#2422#2576#0" />
@@ -1053,6 +1038,34 @@
             <element signature="e#9496#9801#0" />
             <element signature="e#9836#10062#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/capacity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_water.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/statics/js/modules/produce/waste_gas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-admin/src/main/resources/templates/modules/produce/waste_gas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
         </state>
       </provider>
     </entry>

@@ -93,6 +93,18 @@ var vm = new Vue({
         showList: true,
         title: null,
         tempId: null,
+        optt: [],
+        opttt: [],
+        type:  ["请选择", "12121", "1234"],
+        item2: [["请选择", "焚烧炉", "待宰圈"],["请选择", "焚烧炉", "待宰圈"]],
+        item3: ["请选择", "一号", "二号"],
+        item4: ["请选择", "ph值", "五日生化需氧量", "动植物油", "化学需氧量", "大肠菌群数", "总大肠菌群", "总氮", "总磷", "悬浮物", "氨氮", "磷酸盐", "粪大肠菌群", "耐热大肠菌群", "阴离子表面活性剂"],
+        item5: ["请选择", "无", "直接排放", "间接排放"],
+        item6: ["油烟机", "过滤器"],
+        item7: ["文氏工艺", "文氏派派"],
+        item8: ["请选择", "是", "否"],
+        item9: ["请选择", "是", "否"],
+        item10: ["请选择", "无", "直接排放", "间接排放"],
         info: {},
         myInfoData: [
             {
@@ -300,3 +312,15 @@ var vm = new Vue({
         }
     }
 });
+function changeWndNum(val) {
+    vm.optt=[];
+    console.log(val);
+    for (var x = 0; x < vm.type.length; x++) {
+        if (vm.type[x] == val.value){
+            for(var i=0;i<vm.item2[x].length;i++)
+            {
+                vm.optt.push(vm.item2[x][i])
+            }
+        }
+    }
+}
