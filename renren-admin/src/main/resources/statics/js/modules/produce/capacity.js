@@ -71,9 +71,9 @@ var vm = new Vue({
         title: null,
         tempId: null,
         info: {},
-        opt:[1,2],
-        optt:[1,2,3],
-        opttt:[4,5,6],
+
+        optt:[],
+        opttt:[],
         myInfoData: [
             {
                 "id": 1,
@@ -155,7 +155,16 @@ var vm = new Vue({
                 "otherInfo": "--",
                 "otherTechnoInfo": "--"
             }
-        ]
+        ],
+
+        type:["请选择","公用单元","其他","原料系统","炼钢","炼铁","烧结","球团","轧钢"],
+        item2:[["请选择"],["请选择","供热","其他工艺","发电"],["请选择","其他"],["请选择","其他","其他工艺","机械化原料场","非机械化原料场"],["请选择","其他工艺","电炉炼钢","转炉炼钢"],["请选择","其他工艺","高炉炼铁"],
+            ["请选择","其他工艺","带式烧结","步进式烧结"],["请选择","其他工艺","带式焙烧机","竖炉","链篦机-回转窑"],["请选择","其他工艺","冷轧","热轧"]],
+        item3:["请选择","燃气锅炉","燃煤锅炉","燃油锅炉","发电机组","燃气-蒸汽联合循环发电机组","其他"],
+        item4:[["请选择"],["请选择","其他","蒸汽量","燃油锅炉","发电机组","燃气-蒸汽联合循环发电机组","其他"]],
+        item5:[["请选择"],["MW","m2","m3","t","t/(m3.d)","t/a","t/d","t/h.m2","万t/a","其他"],["MW"]],
+        item6:[["请选择"],["请选择","------","其他"]],
+        item7:[["请选择"],["请选择","------","其他"]]
     },
     methods: {
         query: function () {
@@ -284,25 +293,24 @@ var vm = new Vue({
         }
     }
 });
+/*
+*  1 2 级联
+* */
 function changeWndNum(val) {
     vm.optt=[];
-    if(val.value==1)
-    {
-        for(var i=1;i<4;i++)
-        {
-            vm.optt.push(i)
+    console.log(val);
+    for (var x = 0; x < vm.type.length; x++) {
+        if (vm.type[x] == val.value){
+            for(var i=0;i<vm.item2[x].length;i++)
+            {
+                vm.optt.push(vm.item2[x][i])
+            }
         }
     }
-
-    if(val.value==2)
-    {
-        for(var i=5;i<8;i++)
-        {
-            vm.optt.push(i)
-        }
-    }
-
 }
+/*
+*  1 3 级联
+* */
 function changeWndNumm(val) {
     vm.opttt=[];
     if(val.value==1||val.value==2||val.value==3)

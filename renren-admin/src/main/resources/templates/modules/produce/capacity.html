@@ -54,8 +54,8 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">主要生产单元名称</div>
                 <div class="col-sm-10">
-                    <select class="form-control" onchange="changeWndNum(this);">
-                        <option  v-for="tab in opt">{{ tab }}</option>
+                    <select class="form-control" onchange="changeWndNum(this);" v-model="info.name">
+                        <option  v-for="tab in type">{{ tab }}</option>
                     </select>
                 </div>
 
@@ -63,7 +63,7 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">主要工艺名称</div>
                 <div class="col-sm-10">
-                    <select class="form-control" onchange="changeWndNumm(this);">
+                    <select class="form-control" onchange="changeWndNumm(this);" v-model="info.technologyName">
                         <option  v-for="tab in optt">{{ tab }}</option>
                     </select>
                 </div>
@@ -72,8 +72,8 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">生产设施名称</div>
                 <div class="col-sm-10">
-                    <select class="form-control" >
-                        <option  v-for="tab in opttt">{{ tab }}</option>
+                    <select class="form-control" v-model="info.facName">
+                        <option  v-for="tab in item3">{{ tab }}</option>
                     </select>
                 </div>
             </div>
@@ -88,7 +88,10 @@
                 <div class="form-group col-sm-4 fixtest">
                     <div class="col-sm-5 control-label fixtest">参数名称</div>
                     <div class="col-sm-7 fixtest">
-                        <input type="text" class="form-control" v-model="info.paramName" placeholder="参数名称"/>
+                        <!--<input type="text" class="form-control" v-model="info.paramName" placeholder="参数名称"/>-->
+                        <select class="form-control" v-model="info.paramName">
+                            <option  v-for="tab in item4[1]">{{ tab }}</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -20px">
@@ -100,7 +103,10 @@
                 <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -20px">
                     <div class="col-sm-5 control-label fixtest">计量单位</div>
                     <div class="col-sm-7 fixtest">
-                        <input type="text" class="form-control" v-model="info.paramUnit" placeholder="计量单位"/>
+                        <!--<input type="text" class="form-control" v-model="info.paramUnit" placeholder="计量单位"/>-->
+                        <select class="form-control" v-model="info.paramUnit">
+                            <option  v-for="tab in item5[1]">{{ tab }}</option>
+                        </select>
                     </div>
                 </div>
             </div>
@@ -121,7 +127,10 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">产品名称</div>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" v-model="info.productName" placeholder="产品名称"/>
+                    <!--<input type="text" class="form-control" v-model="info.productName" placeholder="产品名称"/>-->
+                    <select class="form-control" v-model="info.productName">
+                        <option  v-for="tab in item6[1]">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <!---->
@@ -129,7 +138,10 @@
                 <div class="form-group col-sm-4 fixtest">
                     <div class="col-sm-5 control-label fixtest">计量单位</div>
                     <div class="col-sm-5 fixtest">
-                        <input type="text" class="form-control" v-model="info.unit" placeholder="计量单位"/>
+                        <!--<input type="text" class="form-control" v-model="info.unit" placeholder="计量单位"/>-->
+                        <select class="form-control" v-model="info.unit">
+                            <option  v-for="tab in item7[1]">{{ tab }}</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-group col-sm-4 fixtest go-left" style="margin-left: -60px;padding-right: 0">

@@ -33,7 +33,10 @@
             <div class="form-group">
                 <div class="col-sm-2 control-label">燃料名称</div>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" v-model="info.name" placeholder="燃料名称"/>
+                    <!--<input type="text" class="form-control" v-model="info.name" placeholder="燃料名称"/>-->
+                    <select class="form-control" v-model="info.name">
+                        <option  v-for="tab in name">{{ tab }}</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group">

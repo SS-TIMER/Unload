@@ -52,6 +52,14 @@ var vm = new Vue({
         title: null,
         tempId: null,
         info: {},
+
+        optt:[],
+        opttt:[],
+
+        type:["请选择","原料","辅料"],
+        item2:[["请选择"],["请选择","其他","块矿","烧结矿","焦炭","球团矿","铁精粉"],["请选择","生石灰","石灰石","膨润土","萤石","轻烧白云石"]],
+        item3:[["请选择","万t/a"]],
+        item4:[["请选择"],["请选择","其他","氟元素","氯元素","硫元素","钒元素","铬元素","锌元素"]],
         myInfoData: [
             {
                 "id": 1,
@@ -213,3 +221,18 @@ var vm = new Vue({
         }
     }
 });
+/*
+*  1 2 级联
+* */
+function changeWndNum(val) {
+    vm.optt=[];
+    for (var x = 0; x < vm.type.length; x++) {
+        if (vm.type[x] == val.value){
+            console.log(vm.type[x]);
+            for(var i=0;i<vm.item2[x].length;i++)
+            {
+                vm.optt.push(vm.item2[x][i])
+            }
+        }
+    }
+}

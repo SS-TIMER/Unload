@@ -6,7 +6,7 @@ server:
     min-spare-threads: 30
   port: 8880
   servlet:
-    context-path: /unload
+    context-path: /
 
 spring:
   profiles:
