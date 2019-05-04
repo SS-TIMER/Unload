@@ -166,84 +166,86 @@ var vm = new Vue({
         myInfoData: [
             {
                 "id": 1,
-                "waterType": "生活污水",
-                "wasteName": "水质污染",
+                "waterType": "初期雨水",
+                "wasteName": "五日生化需氧量",
                 /**/
                 "fixDevId": "14123412342",
-                "fixDevName": "三号沉淀池",
-                "fixDevTechno": "化学沉淀",
-                "isOk": "可行",
+                "fixDevName": "综合废水处理站",
+                "fixDevTechno": "一级处理-平流式沉砂",
+                "isOk": "否",
+
                 "fixDevOtherInfo": "利用化学反应，去除有毒物质",
 
-                "outWhere": "河流",
+                "outWhere": "不外排",
                 "outMode": "直接排放",
-                "outTime": "每天一次",
+                "outTime": "连续排放，流量不稳定且无规律，但不属于冲击型排放",
                 "outId": "20190101",
                 "outName": "一号废水管道",
-                "outOk": "符合",
-                "outType": "管道",
+                "outOk": "是",
+                "outType": "一般排放口-其他",
                 "otherInfo": "保护水源，治理污水"
             },
             {
                 "id": 2,
-                "waterType": "生活污水",
-                "wasteName": "水质污染",
+                "waterType": "屠宰及肉品加工生产废水",
+                "wasteName": "动植物油",
                 /**/
                 "fixDevId": "14123412342",
-                "fixDevName": "三号沉淀池",
-                "fixDevTechno": "化学沉淀",
-                "isOk": "可行",
+                "fixDevName": "生活废水处理设施",
+                "fixDevTechno": "一级处理-斜板式沉砂",
+                "isOk": "否",
+
                 "fixDevOtherInfo": "利用化学反应，去除有毒物质",
 
-                "outWhere": "河流",
-                "outMode": "直接排放",
-                "outTime": "每天一次",
+                "outWhere": "工业废水集中处理厂",
+                "outMode": "间接排放",
+                "outTime": "连续排放，流量不稳定且无规律，但不属于冲击型排放",
                 "outId": "20190101",
                 "outName": "一号废水管道",
-                "outOk": "符合",
-                "outType": "管道",
+                "outOk": "是",
+                "outType": "一般排放口-车间或生产设施排放口",
                 "otherInfo": "保护水源，治理污水"
-            },
-            {
+            },{
                 "id": 3,
                 "waterType": "生活污水",
-                "wasteName": "水质污染",
+                "wasteName": "总大肠菌群",
                 /**/
                 "fixDevId": "14123412342",
-                "fixDevName": "三号沉淀池",
-                "fixDevTechno": "化学沉淀",
-                "isOk": "可行",
+                "fixDevName": "综合废水处理站",
+                "fixDevTechno": "一级处理-平流式沉砂",
+                "isOk": "否",
+
                 "fixDevOtherInfo": "利用化学反应，去除有毒物质",
 
-                "outWhere": "河流",
+                "outWhere": "不外排",
                 "outMode": "直接排放",
-                "outTime": "每天一次",
+                "outTime": "连续排放，流量不稳定且无规律，但不属于冲击型排放",
                 "outId": "20190101",
                 "outName": "一号废水管道",
-                "outOk": "符合",
-                "outType": "管道",
+                "outOk": "是",
+                "outType": "主要排放口-车间或生产设施排放口",
+                "otherInfo": "保护水源，治理污水"
+            },{
+                "id": 4,
+                "waterType": "畜禽油脂加工生产废水",
+                "wasteName": "其他",
+                /**/
+                "fixDevId": "14123412342",
+                "fixDevName": "生活废水处理设施",
+                "fixDevTechno": "一级处理-旋流式沉砂",
+                "isOk": "否",
+
+                "fixDevOtherInfo": "利用化学反应，去除有毒物质",
+
+                "outWhere": "排至厂内综合污水处理站",
+                "outMode": "间接排放",
+                "outTime": "连续排放，流量不稳定且无规律，但不属于冲击型排放",
+                "outId": "20190101",
+                "outName": "一号废水管道",
+                "outOk": "是",
+                "outType": "一般排放口-其他",
                 "otherInfo": "保护水源，治理污水"
             },
-            {
-                "id": 4,
-                "waterType": "生活污水",
-                "wasteName": "水质污染",
-                /**/
-                "fixDevId": "14123412342",
-                "fixDevName": "三号沉淀池",
-                "fixDevTechno": "化学沉淀",
-                "isOk": "可行",
-                "fixDevOtherInfo": "利用化学反应，去除有毒物质",
-
-                "outWhere": "河流",
-                "outMode": "直接排放",
-                "outTime": "每天一次",
-                "outId": "20190101",
-                "outName": "一号废水管道",
-                "outOk": "符合",
-                "outType": "管道",
-                "otherInfo": "保护水源，治理污水"
-            }
         ]
     },
     methods: {

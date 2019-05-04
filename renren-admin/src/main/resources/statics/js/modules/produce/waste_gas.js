@@ -109,85 +109,86 @@ var vm = new Vue({
         myInfoData: [
             {
                 "id": 1,
-                "facId": "53000001",
-                "facName": "钢铁冶炼",
-                "processName": "大气污染",
-                "wasteType": "气体",
-                "outType": "气体排放",
+                "facId": "12121",
+                "facName": "待宰圈",
+                "processName": "一号",
+                "wasteType": "ph值",
+                "outType": "直接排放",
                 /**/
                 "fixDevId": "73601001",
-                "fixDevName": "有害气体过滤",
-                "fixDevTechno": "废气处理",
-                "isOk": "可行",
+                "fixDevName": "油烟机",
+                "fixDevTechno": "文氏工艺",
+                "isOk": "是",
                 "fixOtherInfo": "很棒的治理设备",
 
                 "outId": "601001",
                 "outName": "一号废气排放口",
-                "outIsOk": "符合",
-                "outTypes": "气体排放口",
+                "outIsOk": "是",
+                "outTypes": "一般排放口-其他",
                 "otherInfo": "治理污染，人人有责"
             },
             {
                 "id": 2,
-                "facId": "53000001",
-                "facName": "钢铁冶炼",
-                "processName": "大气污染",
-                "wasteType": "气体",
-                "outType": "气体排放",
+                "facId": "1234",
+                "facName": "焚烧炉",
+                "processName": "二号",
+                "wasteType": "动植物油",
+                "outType": "间接排放",
                 /**/
                 "fixDevId": "73601001",
-                "fixDevName": "有害气体过滤",
-                "fixDevTechno": "废气处理",
-                "isOk": "可行",
+                "fixDevName": "过滤器",
+                "fixDevTechno": "文氏工艺",
+                "isOk": "是",
                 "fixOtherInfo": "很棒的治理设备",
 
                 "outId": "601001",
                 "outName": "一号废气排放口",
-                "outIsOk": "符合",
-                "outTypes": "气体排放口",
+                "outIsOk": "否",
+                "outTypes": "一般排放口-总排口",
                 "otherInfo": "治理污染，人人有责"
-            },
-            {
+            },{
                 "id": 3,
-                "facId": "53000001",
-                "facName": "钢铁冶炼",
-                "processName": "大气污染",
-                "wasteType": "气体",
-                "outType": "气体排放",
+                "facId": "12121",
+                "facName": "待宰圈",
+                "processName": "一号",
+                "wasteType": "ph值",
+                "outType": "直接排放",
                 /**/
                 "fixDevId": "73601001",
-                "fixDevName": "有害气体过滤",
-                "fixDevTechno": "废气处理",
-                "isOk": "可行",
+                "fixDevName": "油烟机",
+                "fixDevTechno": "文氏工艺",
+                "isOk": "是",
                 "fixOtherInfo": "很棒的治理设备",
 
                 "outId": "601001",
                 "outName": "一号废气排放口",
-                "outIsOk": "符合",
-                "outTypes": "气体排放口",
+                "outIsOk": "是",
+                "outTypes": "一般排放口-其他",
                 "otherInfo": "治理污染，人人有责"
             },
             {
                 "id": 4,
-                "facId": "53000001",
-                "facName": "钢铁冶炼",
-                "processName": "大气污染",
-                "wasteType": "气体",
-                "outType": "气体排放",
+                "facId": "1234",
+                "facName": "焚烧炉",
+                "processName": "二号",
+                "wasteType": "动植物油",
+                "outType": "间接排放",
                 /**/
                 "fixDevId": "73601001",
-                "fixDevName": "有害气体过滤",
-                "fixDevTechno": "废气处理",
-                "isOk": "可行",
+                "fixDevName": "过滤器",
+                "fixDevTechno": "文氏工艺",
+                "isOk": "是",
                 "fixOtherInfo": "很棒的治理设备",
 
                 "outId": "601001",
                 "outName": "一号废气排放口",
-                "outIsOk": "符合",
-                "outTypes": "气体排放口",
+                "outIsOk": "否",
+                "outTypes": "一般排放口-总排口",
                 "otherInfo": "治理污染，人人有责"
             }
+
         ]
+
     },
     methods: {
         query: function () {

@@ -63,47 +63,47 @@ var vm = new Vue({
         myInfoData: [
             {
                 "id": 1,
-                "type": "化学用品",
-                "name": "重水",
-                "unit": "吨",
+                "type": "原料",
+                "name": "烧结矿",
+                "unit": "万t/a",
                 "sum": "1000",
                 /*ParamName*/
                 "bad": "--",
                 "what": "--",
-                "otherInfo": "无毒化学用品"
+                "otherInfo": "氟元素"
             },
             {
                 "id": 2,
-                "type": "化学用品",
-                "name": "重水",
-                "unit": "吨",
+                "type": "辅料",
+                "name": "生石灰",
+                "unit": "万t/a",
                 "sum": "1000",
                 /*ParamName*/
                 "bad": "--",
                 "what": "--",
-                "otherInfo": "无毒化学用品"
+                "otherInfo": "锌元素"
             },
             {
                 "id": 3,
-                "type": "化学用品",
-                "name": "重水",
-                "unit": "吨",
+                "type": "辅料",
+                "name": "萤石",
+                "unit": "万t/a",
                 "sum": "1000",
                 /*ParamName*/
                 "bad": "--",
                 "what": "--",
-                "otherInfo": "无毒化学用品"
+                "otherInfo": "钒元素"
             },
             {
                 "id": 4,
-                "type": "化学用品",
-                "name": "重水",
-                "unit": "吨",
+                "type": "原料",
+                "name": "铁精粉",
+                "unit": "万t/a",
                 "sum": "1000",
                 /*ParamName*/
                 "bad": "--",
                 "what": "--",
-                "otherInfo": "无毒化学用品"
+                "otherInfo": "其他"
             }
         ]
     },
