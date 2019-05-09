@@ -61,7 +61,7 @@ var vm = new Vue({
         myInfoData: [
             {
                 "id": 1,
-                "name": "无烟煤",
+                "name": "动力煤",
                 "hui": "60%",
                 "liu": "40%",
                 "huifa": "30%",
@@ -72,7 +72,7 @@ var vm = new Vue({
             },
             {
                 "id": 2,
-                "name": "无烟煤",
+                "name": "喷吹煤",
                 "hui": "60%",
                 "liu": "40%",
                 "huifa": "30%",
@@ -83,18 +83,18 @@ var vm = new Vue({
             },
             {
                 "id": 3,
-                "name": "无烟煤",
+                "name": "柴油",
                 "hui": "60%",
                 "liu": "40%",
                 "huifa": "30%",
                 /*ParamName*/
                 "htoValue": "600",
                 "sum": "1000",
-                "otherInfo": "优质无烟煤"
+                "otherInfo": "-----"
             },
             {
                 "id": 4,
-                "name": "无烟煤",
+                "name": "煤",
                 "hui": "60%",
                 "liu": "40%",
                 "huifa": "30%",
